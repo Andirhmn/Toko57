@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.main {
+  height: 100vh;
+}
+
+.logout:hover {
+  background: #ced4da;
+}
+
+.sidebar {
+  color: #fff;
+  background: #e8e8e8;
+  padding-block: 10px;
+  padding-right: 0px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 15px 10px;
+}
+
+.sidebar a:hover {
+  background: #ced4da;    
+}
+
+.content {
+  padding: 20px 8vh;
+}
+
+.active {
+  background: #ced4da;
+  border-right: solid 10px orange;
+}
+
+.card-data {
+  padding: 15px 30px;
+  color: #000;
+}
+
+.card-data.items {
+  background: #ced4da;
+}
+
+.card-data.categories {
+  background: #ced4da;
+}
+
+.card-data.users {
+  background: #ced4da;
+}
+
+.card-data i {
+  font-size: 65px;
+}
+
+.card-desc {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.card-count {
+  font-size: 25px;
+}
+
+.image {
+  padding-right: 0px;
+  margin-top: 3px;
+}
+
+.image a {
+  padding: 3px 7px;
+  border-radius: 3px;
+  background: orange;
+}
+
+.total {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 10px;
+  vertical-align: top;
+}
+
+@media screen and (max-width: 576px) {
+  .search input {
+    width: 169px;
+  }
+
+  .keranjang {
+    margin: 5px 0px;
+  }
+
+  .search input.dashboard {
+    width: 203px;
+  }
+}

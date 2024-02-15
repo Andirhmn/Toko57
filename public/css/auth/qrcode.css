@@ -1,0 +1,15 @@
+.main {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.register-box {
+  width: 500px;
+  border: solid 1px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+form div {
+  margin-bottom: 15px;
+}

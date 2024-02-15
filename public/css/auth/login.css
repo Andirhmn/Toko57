@@ -1,0 +1,57 @@
+#headerJadwal {
+  height: 56px;
+}
+
+#headerJadwal div {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: white;
+  padding-left: 38px;
+}
+
+#bodyJadwal {
+  padding: 0px 16px;
+  margin-top: 6px;
+}
+
+#bodyJadwal table {
+  width: 100%;
+  margin-top: 12px;
+}
+
+#bodyJadwal table td {
+  font-size: 1em;
+  padding: 0.2em;
+}
+
+#bodyJadwal table td:last-child {
+  text-align: right;
+}
+
+#bodyJadwal table tr:nth-child(even) {
+  background-color: #e8e8e8;
+}
+
+#bodyJadwal table tr:hover {
+  background: #0275d8;
+  color: white;
+  cursor: pointer;
+}
+
+#bodyJadwal div {
+  text-align: center;
+  font-weight: bold;
+  padding: 8px 0px;      
+}
+
+#bodyJadwal h5 {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0px;
+}
+
+#bodyJadwal span {
+  font-weight: 600;
+  font-size: 14px;
+}
